@@ -1,4 +1,4 @@
-.DEFAULT_GOAL = optimize
+.DEFAULT_GOAL = run
 
 clean:
 	rm -f bubble bubble.gif

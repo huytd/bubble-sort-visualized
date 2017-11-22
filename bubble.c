@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define DATA_LENGTH  100
+#define DATA_LENGTH  30
 #define IMAGE_WIDTH  300
 #define IMAGE_HEIGHT 50
 #define ENDING_DELAY 10
@@ -36,7 +36,7 @@ void swap(int* data, int from, int to) {
 
 void bubble_sort(int* data, int length) {
   for (int i = 0; i < length; i++) {
-    for (int j = 0; j < length - i - 1; j++) {
+    for (int j = 0; j < length - i; j++) {
       if (data[j] > data[j+1]) {
         swap(data, j, j+1);
         draw_frame(data, length, IMAGE_WIDTH, IMAGE_HEIGHT);
