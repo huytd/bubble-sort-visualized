@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define DATA_LENGTH  100
+#define DATA_LENGTH  20
 #define IMAGE_WIDTH  500
-#define IMAGE_HEIGHT 100
+#define IMAGE_HEIGHT 50
 #define ENDING_DELAY 50
 
 int* gen_data(int length) {
